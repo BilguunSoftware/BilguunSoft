@@ -1,5 +1,5 @@
 {
-  "name": "site",
+  "name": "bilguunsoft",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "lucide-react": "^1.55.0",
+    "mongodb": "^7.7.0",
+    "mongodb-memory-server": "^11.3.0",
+    "motion": "^14.1.0",
     "next": "16.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
