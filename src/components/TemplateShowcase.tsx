@@ -102,7 +102,7 @@ export function TemplateShowcase() {
           {category.templates.length > 1 ? (
             <div
               role="tablist"
-              aria-label="Барилга, интерьер, Вебсайт"
+              aria-label={category.tab}
               className="mt-4 flex gap-5"
             >
               {category.templates.map((template, index) => {

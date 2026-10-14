@@ -58,11 +58,43 @@ export const projects: Template[] = [
   },
 ];
 
+export const companyInterviews: Template[] = [
+  {
+    id: "verso",
+    brand: "VERSO",
+    name: "Company Interview",
+    headline: "Өөр өнцөг. Илүү өргөн боломж.",
+    description: "Хүмүүс, санаа, боломжийг холбосон компанийн танилцуулга.",
+    url: "https://verso-sepia-phi.vercel.app/",
+  },
+  {
+    id: "sfera",
+    brand: "SFERA",
+    name: "Company Interview",
+    headline: "Өөр өнцгөөс хар.",
+    description: "Хөдөлгөөнд байгаа компанийн танилцуулга.",
+    url: "https://sfera-theta.vercel.app/",
+  },
+  {
+    id: "vectra",
+    brand: "VECTRA",
+    name: "Company Interview",
+    headline: "Тод хараа. Зөв шийдэл. Бодит ахиц.",
+    description: "Стратеги, хүмүүс, хэрэгжилтийг нэгтгэсэн компанийн танилцуулга.",
+    url: "https://vectra-eight-vert.vercel.app/",
+  },
+];
+
 export const categories: TemplateCategory[] = [
   {
     id: "interior",
     tab: "Барилга, интерьер, Вебсайт",
     templates: projects,
+  },
+  {
+    id: "company-interview",
+    tab: "Company Interview",
+    templates: companyInterviews,
   },
 ];
 
