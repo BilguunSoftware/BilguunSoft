@@ -69,6 +69,18 @@ export function Hero() {
           >
             Бэлэн загвараас сонго. Эсвэл өөрийн хүссэнээр хийлгэ.
           </motion.p>
+          <motion.div variants={fade} className="mt-6 max-w-lg">
+            <p className="text-sm font-medium tracking-[-0.01em] sm:text-base">
+              Бүх сайт Next.js дээр хийгдсэн. Code based.
+            </p>
+            <p className="mt-4 text-sm font-medium">Яагаад Next.js вэ?</p>
+            <ul className="mt-3 space-y-2.5 text-sm leading-relaxed text-muted">
+              <li>Хурдан нээгдэнэ. Хуудсыг урьдчилан бэлддэг тул зочин хүлээдэггүй.</li>
+              <li>Хайлтад илүү сайн гарна. Google агуулгыг илүү цэгцтэй уншина.</li>
+              <li>Утас, компьютер дээр тогтвортой ажиллана.</li>
+              <li>Code based. Эх код таных тул дараа нь өргөтгөхөд хялбар.</li>
+            </ul>
+          </motion.div>
         </motion.div>
         <ServiceCards />
       </Container>
