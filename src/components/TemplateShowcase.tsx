@@ -55,7 +55,7 @@ export function TemplateShowcase() {
         <Reveal>
           <div className="max-w-xl">
             <h2 className="text-[clamp(2rem,4.5vw,3.4rem)] font-semibold tracking-[-0.04em]">
-              Жишээ загварууд.
+              Бэлэн худалдаж авах загварууд.
             </h2>
             <p className="mt-3 text-muted">Ангиллаа сонгоод үзээрэй.</p>
           </div>
